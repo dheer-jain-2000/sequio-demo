@@ -1,0 +1,48 @@
+.survey-question {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+  
+   .question-options {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  .difficulty-tag {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    .difficulty-field {
+        border: 1px solid #ccc;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .tag-field {
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+  }
+
+
+  .comp-body {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: justify;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Add any additional styling as needed */
+  

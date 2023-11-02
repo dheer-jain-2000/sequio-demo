@@ -1,0 +1,19 @@
+.sign-in-sign-up-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; /* Adjust the height as needed */
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adjust the gap between the fields */
+    align-items: center;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px; /* Adjust the gap between the buttons */
+  }
+  
